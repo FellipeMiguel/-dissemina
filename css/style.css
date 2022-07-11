@@ -1,0 +1,186 @@
+/* Formatação geral
+*************************************/
+
+#container{
+    width: auto;
+    margin: 0 auto;
+    font: 16px "Montserrat", Arial, sans-serif;
+    margin: 0 auto;
+    background: url(../imagens/paginaInicial/AllShapes.svg) no-repeat top;
+}
+
+a:link, a:active, a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: gray;
+}
+
+/* Logo
+**************************************/
+#logo h1{
+    margin-left: 400px;
+    float: left;
+}
+#logo a{
+    width: 170px;
+    height: 32px;
+    text-indent: -9999px;
+    display: block;
+    background: url(../imagens/logo/logo@dark.png) no-repeat;
+}
+
+/* Barra de navegação
+**************************************/
+header{
+    padding: 15px 0;
+    height: 186px;
+}
+
+nav ul{
+    width: 1084px;
+    margin: 0 50px;
+    list-style: none;
+    float: right;
+    padding: 10px;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a:link{
+    display: block;
+    margin-right: 25px;
+    margin-top: 15px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+
+nav div#botao{
+    float: left;
+    display: block;
+    margin-right: 25px;
+    margin-top: 5px;
+    padding-bottom: 3px;
+    border: none;
+}
+
+.botaoLogin{
+    width: 100px;
+    clear: both;
+    margin-left: 50px;
+    color: #FFF;
+    background-color: #FF2E63;
+    border: none;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.botaoLogin:hover{
+    background-color: pink;
+}
+
+/* Seção inicial
+**************************************/
+
+#secaoInicial{
+    width: 1440px;
+    height: 1024px;
+    margin: auto;
+    /*background: url(../imagens/paginaInicial/AllShapes.svg);*/
+}
+
+.identidadeVisual img{
+    width: 460px;
+    height: 406px;
+    float: right;
+    margin: 150px 160px 0 0;
+}
+
+section#fraseEfeito{
+    float: left;
+}
+
+#secaoInicial section#fraseEfeito{
+    width: 510px;
+    height: 502px;
+    margin-top: 170px;
+    margin-left: 161px;
+}
+
+#secaoInicial section .botaoLogin{
+    width: 129;
+    height: 46;
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+#secaoInicial section .portfolio{
+    margin-top: 13px;
+    margin-right: 250px;
+}
+
+#secaoInicial div.redesSociais{
+    clear: both;
+    padding-top: 125px;
+}
+
+#secaoInicial div.redesSociais .box img{
+    margin-right: 60px;
+}
+
+/* Seção sobre
+**************************************/
+
+#secaoSobre{
+    width: 1440px;
+    height: 838px;
+    margin: auto;
+    background: url(../imagens/sobre/shapes.svg) no-repeat top right;
+}
+
+#secaoSobre section#sobre{
+    float: left;
+    width: 510px;
+    height: 600px;
+    margin-top: 170px;
+    margin-left: 161px;
+}
+
+#secaoSobre section .botaoLogin{
+    width: 129;
+    height: 46;
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+#secaoSobre div.redesSociais{
+    clear: both;
+    padding-top: 50px;
+}
+
+#secaoSobre div.redesSociais .box img{
+    margin-right: 60px;
+}
+
+/* Rodapé
+-----------------------------------*/
+footer{
+    width: 1440px;
+    margin: auto;
+    clear: both;
+    padding: 20px 0 30px 0;
+    text-align: center;
+    margin-top: 20px;
+    background-color: black;
+}
+footer p{
+    padding-top: 5px;
+    color: white;
+}
