@@ -1,6 +1,7 @@
 /* Formatação geral
 *************************************/
 
+
 #container{
     width: auto;
     margin: 0 auto;
@@ -14,14 +15,10 @@ a:link, a:active, a:visited{
     text-decoration: none;
 }
 
-a:hover{
-    color: gray;
-}
-
 /* Logo
 **************************************/
 #logo h1{
-    margin-left: 400px;
+    margin-left: 300px;
     float: left;
 }
 #logo a{
@@ -57,6 +54,10 @@ nav ul li a:link{
     margin-top: 15px;
     padding-bottom: 3px;
     text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    border-bottom: 3px solid #FF2E63;
 }
 
 nav div#botao{
