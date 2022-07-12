@@ -1,3 +1,3 @@
 # -dissemina
 
-Projeto para o processo seletivo da EJECT
+Projeto para o treineer da EJECT
