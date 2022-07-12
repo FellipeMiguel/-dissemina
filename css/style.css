@@ -170,6 +170,24 @@ section#fraseEfeito{
     margin-right: 60px;
 }
 
+/* Seção serviços
+**************************************/
+
+#secaoServicos{
+    width: 1440px;
+    height: 1024px;
+    margin: auto;
+    background: url(../imagens/servicos/shapes.svg) no-repeat top;
+}
+
+#secaoServicos section#servicos{
+    float: left;
+    width: 510px;
+    height: 600px;
+    margin-top: 80px;
+    margin-left: 161px;
+}
+
 /* Rodapé
 -----------------------------------*/
 footer{
