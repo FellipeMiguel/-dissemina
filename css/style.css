@@ -150,7 +150,7 @@ section#fraseEfeito{
     float: left;
     width: 510px;
     height: 600px;
-    margin-top: 170px;
+    margin-top: 120px;
     margin-left: 161px;
 }
 
@@ -182,14 +182,14 @@ section#fraseEfeito{
 }
 
 #secaoServicos section#servicos{
-    width: 510px;
-    height: 600px;
-    margin-top: 80px;
-    margin-left: 161px;
+    width: 1440px;
+    height: 900px;
+    border: 1px solid red;
 }
 
 #secaoServicos section#servicos h1{
-    padding-top: 80px;
+    padding-top: 90px;
+    padding-left: 161px;
 }
 
 /* Seção portfólio
@@ -204,19 +204,91 @@ section#fraseEfeito{
 }
 
 #secaoPortfolio section#portfolio{
-    width: 510px;
-    height: 600px;
-    margin-top: 80px;
-    margin-left: 161px;
+    width: 1440px;
+    height: 950px;
+    border: 1px solid red;
 }
 
 #secaoPortfolio section#portfolio h1{
-    padding-top: 80px;
+    padding-top: 90px;
+    padding-left: 161px;
 }
 
+#secaoPortfolio div#cardPortfolio{
+    border: 1px solid red;
+    margin: auto;
+    width: 1120px;
+    height: 676px;
+}
+
+#secaoPortfolio div#cardPortfolio #cardPortfolio1{
+    clear: both;
+    width: 500px;
+    height: 252px;
+    background: #FF2E63;
+    border-radius: 30px;
+}
+
+#secaoPortfolio div#cardPortfolio1 img{
+    width: 252px;
+    height: 252px;
+    float: left;
+    border-right: 5px solid white;
+}
+#secaoPortfolio div#cardPortfolio1 .cardTexto{
+    float: right;
+    width: 180px;
+    height: 130px;
+    color: white;
+    border: 1px solid red;
+}
+
+/* Seção depoimentos
+**************************************/
+
+#secaoDepoimentos{
+    clear: both;
+    width: 1440px;
+    height: 1024px;
+    margin: auto;
+    background: url(../imagens/depoimentos/Shapes.svg) no-repeat bottom left;
+}
+
+#secaoDepoimentos section#depoimentos{
+    width: 1440px;
+    height: 1000px;
+    border: 1px solid red;
+}
+
+#secaoDepoimentos section#depoimentos h1{
+    padding-top: 90px;
+    padding-left: 161px;
+}
+
+/* Seção contato
+**************************************/
+#secaoContato{
+    clear: both;
+    width: 1440px;
+    height: 1024px;
+    margin: auto;
+    background: url(../imagens/contato/Shapes\ \(1\).svg) no-repeat top right;
+}
+
+#secaoContato section#contato{
+    width: 1440px;
+    height: 800px;
+    border: 1px solid red;
+}
+
+#secaoContato section#contato h1{
+    padding-top: 90px;
+    padding-left: 161px;
+}
 
 /* Rodapé
 -----------------------------------*/
+
 footer{
     width: 1440px;
     margin: auto;
