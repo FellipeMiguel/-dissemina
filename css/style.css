@@ -185,7 +185,6 @@ section#fraseEfeito{
 #secaoServicos section#servicos{
     width: 1440px;
     height: 900px;
-    border: 1px solid red;
 }
 
 #secaoServicos section#servicos h1{
@@ -203,7 +202,7 @@ section#fraseEfeito{
     height : 341px;  
     background-color : black;
     margin-left: 160px;
-    margin-top: 150px;
+    margin-top: 180px;
         
     display : flex;
     flex-direction : column;
@@ -240,7 +239,7 @@ section#fraseEfeito{
     height : 341px;  
     background-color : black;
     margin-right: 550px;
-    margin-bottom: -130px;
+    margin-top: 120px;
         
     display : flex;
     flex-direction : column;
@@ -275,8 +274,8 @@ section#fraseEfeito{
     width : 348px;
     height : 341px;  
     background-color : black;
-    margin-bottom: 300px;
-    margin-right: 150px;
+    margin-top: -200px;
+    margin-right: 170px;
         
     display : flex;
     flex-direction : column;
@@ -321,7 +320,7 @@ section#fraseEfeito{
 }
 
 #secaoPortfolio section#portfolio h1{
-    padding-top: 90px;
+    padding-top: 40px;
     padding-left: 161px;
 }
 
@@ -372,7 +371,7 @@ section#fraseEfeito{
 }
 
 #secaoDepoimentos section#depoimentos h1{
-    padding-top: 90px;
+    padding-top: 50px;
     padding-left: 161px;
 }
 
@@ -412,7 +411,7 @@ section#fraseEfeito{
 }
 
 /* Rodapé
------------------------------------*/
+***************************************/
 
 footer{
     width: 1440px;
