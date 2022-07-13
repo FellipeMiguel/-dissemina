@@ -177,6 +177,7 @@ section#fraseEfeito{
     clear: both;
     width: 1440px;
     height: 1024px;
+    display : flex;
     margin: auto;
     background: url(../imagens/servicos/shapes.svg) no-repeat top;
 }
@@ -190,6 +191,116 @@ section#fraseEfeito{
 #secaoServicos section#servicos h1{
     padding-top: 90px;
     padding-left: 161px;
+}
+
+/* Card 1
+-----------------------------------*/
+
+#secaoServicos section#servicos #card1{
+    float: left;
+    position: relative;
+    width : 348px;
+    height : 341px;  
+    background-color : black;
+    margin-left: 160px;
+    margin-top: 150px;
+        
+    display : flex;
+    flex-direction : column;
+    border-radius : 30px;
+    align-items : center;
+    justify-content : center;
+}
+
+#secaoServicos section#servicos #card1 img{
+    position : relative;
+    width : 170px;
+    height : 167px;
+  
+    top : -40%;
+    left: 8px;
+    z-index : 1;
+}
+
+#secaoServicos section#servicos #card1 .cardTxt{
+    position : relative;
+    top : -50px;
+    padding : 10px 15px;
+    color : #fff;
+    text-align : center;
+}
+
+/* Card 2
+-----------------------------------*/  
+
+#secaoServicos section#servicos #card2{
+    float: right;
+    position: relative;
+    width : 348px;
+    height : 341px;  
+    background-color : black;
+    margin-right: 550px;
+    margin-bottom: -130px;
+        
+    display : flex;
+    flex-direction : column;
+    border-radius : 30px;
+    align-items : center;
+    justify-content : center;
+}
+
+#secaoServicos section#servicos #card2 img{
+    position : relative;
+    width : 170px;
+    height : 167px;
+  
+    top : -40%;
+    left: 8px;
+    z-index : 1;
+}
+
+#secaoServicos section#servicos #card2 .cardTxt{
+    position : relative;
+    top : -50px;
+    padding : 10px 15px;
+    color : #fff;
+    text-align : center;
+}
+
+/* Card 3
+-----------------------------------*/
+#secaoServicos section#servicos #card3{
+    float: right;
+    position: relative;
+    width : 348px;
+    height : 341px;  
+    background-color : black;
+    margin-bottom: 300px;
+    margin-right: 150px;
+        
+    display : flex;
+    flex-direction : column;
+    border-radius : 30px;
+    align-items : center;
+    justify-content : center;
+}
+
+#secaoServicos section#servicos #card3 img{
+    position : relative;
+    width : 170px;
+    height : 167px;
+  
+    top : -40%;
+    left: 8px;
+    z-index : 1;
+}
+
+#secaoServicos section#servicos #card3 .cardTxt{
+    position : relative;
+    top : -50px;
+    padding : 10px 15px;
+    color : #fff;
+    text-align : center;
 }
 
 /* Seção portfólio
@@ -286,6 +397,7 @@ section#fraseEfeito{
 }
 
 #secaoContato div#formulario{
+    position:relative;
     float: left;
     border: 1px solid red;
     width: 583px;
@@ -297,10 +409,6 @@ section#fraseEfeito{
     width: 479px;
     height: 466px;
     margin-right: 161px;
-}
-
-#secaoContatos div#mapa iframe{
-    border-radius: 30px;
 }
 
 /* Rodapé
