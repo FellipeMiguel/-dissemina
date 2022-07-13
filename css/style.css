@@ -205,7 +205,7 @@ section#fraseEfeito{
     margin-top: 180px;
         
     display : flex;
-    flex-direction : column;
+    flex-direction:column;
     border-radius : 30px;
     align-items : center;
     justify-content : center;
@@ -336,14 +336,23 @@ section#fraseEfeito{
     padding-left: 161px;
 }
 
-#secaoPortfolio div#cardPortfolio{
-    border: 1px solid red;
-    margin: auto;
-    width: 1120px;
-    height: 676px;
+#secaoPortfolio #portfolio div.cardPortfolio1{
+    float: left;
+    position: relative;
+    width : 348px;
+    height : 341px;  
+    background-color : black;
+    margin-left: 160px;
+    margin-top: 180px;
+        
+    display : flex;
+    flex-direction:column;
+    border-radius : 30px;
+    align-items : center;
+    justify-content : center;
 }
 
-#secaoPortfolio div#cardPortfolio #cardPortfolio1{
+#secaoPortfolio div#cardPortfolio1 .cardPortfolio{
     clear: both;
     width: 500px;
     height: 252px;
@@ -357,12 +366,13 @@ section#fraseEfeito{
     float: left;
     border-right: 5px solid white;
 }
-#secaoPortfolio div#cardPortfolio1 .cardTexto{
-    float: right;
-    width: 180px;
-    height: 130px;
-    color: white;
-    border: 1px solid red;
+
+#secaoPortfolio section#portfolio #cardPortfolio div.cardTxt{
+    position : relative;
+    top : -50px;
+    padding : 10px 15px;
+    color : #fff;
+    text-align : center;
 }
 
 /* Seção depoimentos
