@@ -3,7 +3,7 @@
 
 
 #container{
-    width: auto;
+    width: 1440px;
     margin: 0 auto;
     font: 16px "Montserrat", Arial, sans-serif;
     margin: 0 auto;
@@ -18,7 +18,7 @@ a:link, a:active, a:visited{
 /* Logo
 **************************************/
 #logo h1{
-    margin-left: 300px;
+    margin-left: 161px;
     float: left;
 }
 #logo a{
@@ -37,7 +37,7 @@ header{
 }
 
 nav ul{
-    width: 1084px;
+    width: 800px;
     margin: 0 50px;
     list-style: none;
     float: right;
@@ -211,6 +211,10 @@ section#fraseEfeito{
     justify-content : center;
 }
 
+#secaoServicos section#servicos #card1:hover{
+    height: 391px;
+}
+
 #secaoServicos section#servicos #card1 img{
     position : relative;
     width : 170px;
@@ -248,6 +252,10 @@ section#fraseEfeito{
     justify-content : center;
 }
 
+#secaoServicos section#servicos #card2:hover{
+    height: 391px;
+}
+
 #secaoServicos section#servicos #card2 img{
     position : relative;
     width : 170px;
@@ -282,6 +290,10 @@ section#fraseEfeito{
     border-radius : 30px;
     align-items : center;
     justify-content : center;
+}
+
+#secaoServicos section#servicos #card3:hover{
+    height: 391px;
 }
 
 #secaoServicos section#servicos #card3 img{
