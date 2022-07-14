@@ -5,8 +5,6 @@
 #container{
     width: 100%;
     margin: 0 auto;
-    /* font: 16px "Montserrat", Arial, sans-serif;
-     */
     font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
     background: url(../imagens/paginaInicial/AllShapes.svg) no-repeat;
@@ -457,7 +455,8 @@ section#fraseEfeito{
 }
 
 #secaoContato section#contato h1{
-    padding-top: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 161px;
 }
 
