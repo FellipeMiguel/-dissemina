@@ -5,7 +5,9 @@
 #container{
     width: 100%;
     margin: 0 auto;
-    font: 16px "Montserrat", Arial, sans-serif;
+    /* font: 16px "Montserrat", Arial, sans-serif;
+     */
+    font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
     background: url(../imagens/paginaInicial/AllShapes.svg) no-repeat;
     background-size: 100% 95%;
@@ -329,10 +331,9 @@ section#fraseEfeito{
 #secaoPortfolio section#portfolio{
     width: 100%;
     height: 950px;
-    border: 1px solid red;
 }
 
-#secaoPortfolio section#portfolio h1{
+/* #secaoPortfolio section#portfolio h1{
     padding-top: 40px;
     padding-left: 161px;
 }
@@ -372,7 +373,91 @@ section#fraseEfeito{
     color : #fff;
     text-align : center;
     justify-content: center;
+} */
+
+/* Portfolio Pedro */
+#secaoPortfolio #portfolio .portfolio-h1{
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+
 }
+#secaoPortfolio {
+    /* width: 800px !important;
+     */
+     margin: auto;
+} 
+
+.cardsPortfolio {
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.cardPortfolio {
+    background-color : #FF2E63;
+    border-radius: 30px;
+    max-width: 446.12px;
+    max-height: 212.62px;
+
+    display: flex;
+    align-items: center;
+}
+
+.card-portfolio-text {
+    padding-right: 27px;
+    border-left: 5px solid white ;
+    margin-left: -5px;
+}
+
+.card-portfolio-text h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: white;
+}
+
+.card-portfolio-text p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: white;
+    margin-left: 10px;
+}
+
+.cardsPortfolio2 {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    margin-left: 80px;
+
+}
+/* segundo card da primeira fileira */
+.segundo1 {
+    margin-top: 70px;
+}
+
+/* segundo card da segunda fileira */
+.segundo2 {
+    margin-top: 70px;
+    margin-left: 30px;
+}
+/* primeiro card da segunda fileira */
+
 
 /* Seção depoimentos
 **************************************/
@@ -388,7 +473,6 @@ section#fraseEfeito{
 #secaoDepoimentos section#depoimentos{
     width: 100%;
     height: 1000px;
-    border: 1px solid red;
 }
 
 #secaoDepoimentos section#depoimentos h1{
@@ -418,7 +502,6 @@ section#fraseEfeito{
 
 #secaoContato div#formulario{
     float: left;
-    border: 1px solid red;
     width: 583px;
     height: 493px;
     margin-left: 161px;
