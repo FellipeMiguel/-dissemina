@@ -333,49 +333,8 @@ section#fraseEfeito{
     height: 950px;
 }
 
-/* #secaoPortfolio section#portfolio h1{
-    padding-top: 40px;
-    padding-left: 161px;
-}
-
-#secaoPortfolio #portfolio div.cardPortfolio{
-    float: left;
-    position: relative;
-    width : 446px;
-    height : 213px;  
-    background-color : #FF2E63;
-    margin-left: 160px;
-    margin-top: 180px;
-        
-    display : flex;
-    border-radius : 30px;
-    align-items : center;
-    justify-content : center;
-}
-
-#secaoPortfolio div#cardPortfolio .cardPortfolio{
-    clear: both;
-    width: 500px;
-    height: 252px;
-    background: #FF2E63;
-    border-radius: 30px;
-}
-
-#secaoPortfolio div.cardPortfolio img{
-    width: 250px;
-    height: 250px;
-    float: left;
-    border-right: 5px solid white;
-}
-
-#secaoPortfolio section#portfolio .cardPortfolio div.cardTxt{
-    float: right;
-    color : #fff;
-    text-align : center;
-    justify-content: center;
-} */
-
 /* Portfolio Pedro */
+
 #secaoPortfolio #portfolio .portfolio-h1{
 
     font-weight: 700;
@@ -383,6 +342,7 @@ section#fraseEfeito{
     line-height: 44px;
 
 }
+
 #secaoPortfolio {
     /* width: 800px !important;
      */
@@ -482,6 +442,7 @@ section#fraseEfeito{
 
 /* Seção contato
 **************************************/
+
 #secaoContato{
     clear: both;
     width: 100%;
