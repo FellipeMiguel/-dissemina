@@ -212,10 +212,6 @@ section#fraseEfeito{
     justify-content : center;
 }
 
-#secaoServicos section#servicos #card1:hover{
-    height: 391px;
-}
-
 #secaoServicos section#servicos #card1 img{
     position : relative;
     width : 170px;
@@ -253,10 +249,6 @@ section#fraseEfeito{
     justify-content : center;
 }
 
-#secaoServicos section#servicos #card2:hover{
-    height: 391px;
-}
-
 #secaoServicos section#servicos #card2 img{
     position : relative;
     width : 170px;
@@ -291,10 +283,6 @@ section#fraseEfeito{
     border-radius : 30px;
     align-items : center;
     justify-content : center;
-}
-
-#secaoServicos section#servicos #card3:hover{
-    height: 391px;
 }
 
 #secaoServicos section#servicos #card3 img{
