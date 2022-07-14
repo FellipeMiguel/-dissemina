@@ -11,7 +11,7 @@
 }
 
 a:link, a:active, a:visited{
-    color: black;
+    color: #252A34;
     text-decoration: none;
 }
 
@@ -84,7 +84,7 @@ nav div#botao{
 }
 
 .botaoLogin:hover{
-    background-color: pink;
+    background-color: #252A34;
 }
 
 /* Seção inicial
@@ -200,7 +200,7 @@ section#fraseEfeito{
     position: relative;
     width : 348px;
     height : 341px;  
-    background-color : black;
+    background-color : #252A34;
     margin-left: 160px;
     margin-top: 180px;
         
@@ -241,7 +241,7 @@ section#fraseEfeito{
     position: relative;
     width : 348px;
     height : 341px;  
-    background-color : black;
+    background-color : #252A34;
     margin-right: 550px;
     margin-top: 120px;
         
@@ -281,7 +281,7 @@ section#fraseEfeito{
     position: relative;
     width : 348px;
     height : 341px;  
-    background-color : black;
+    background-color : #252A34;
     margin-top: -200px;
     margin-right: 170px;
         
@@ -336,23 +336,22 @@ section#fraseEfeito{
     padding-left: 161px;
 }
 
-#secaoPortfolio #portfolio div.cardPortfolio1{
+#secaoPortfolio #portfolio div.cardPortfolio{
     float: left;
     position: relative;
-    width : 348px;
-    height : 341px;  
-    background-color : black;
+    width : 446px;
+    height : 213px;  
+    background-color : #FF2E63;
     margin-left: 160px;
     margin-top: 180px;
         
     display : flex;
-    flex-direction:column;
     border-radius : 30px;
     align-items : center;
     justify-content : center;
 }
 
-#secaoPortfolio div#cardPortfolio1 .cardPortfolio{
+#secaoPortfolio div#cardPortfolio .cardPortfolio{
     clear: both;
     width: 500px;
     height: 252px;
@@ -360,19 +359,18 @@ section#fraseEfeito{
     border-radius: 30px;
 }
 
-#secaoPortfolio div#cardPortfolio1 img{
-    width: 252px;
-    height: 252px;
+#secaoPortfolio div.cardPortfolio img{
+    width: 250px;
+    height: 250px;
     float: left;
     border-right: 5px solid white;
 }
 
-#secaoPortfolio section#portfolio #cardPortfolio div.cardTxt{
-    position : relative;
-    top : -50px;
-    padding : 10px 15px;
+#secaoPortfolio section#portfolio .cardPortfolio div.cardTxt{
+    float: right;
     color : #fff;
     text-align : center;
+    justify-content: center;
 }
 
 /* Seção depoimentos
@@ -418,13 +416,14 @@ section#fraseEfeito{
 }
 
 #secaoContato div#formulario{
-    position:relative;
     float: left;
     border: 1px solid red;
     width: 583px;
     height: 493px;
     margin-left: 161px;
+    display: flex;
 }
+
 #secaoContato div#mapa{
     float: right;
     width: 479px;
@@ -441,7 +440,7 @@ footer{
     clear: both;
     padding: 20px 0 30px 0;
     text-align: center;
-    background-color: black;
+    background-color: #252A34;
 }
 footer p{
     padding-top: 10px;

@@ -27,11 +27,11 @@
                     <!--Inico menu-->
                     <nav>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Quem somos</a></li>
-                            <li><a href="#">Serviços</a></li>
-                            <li><a href="#">Depoimentos</a></li>
-                            <li><a href="#">Contato</a></li>
+                            <li><a href="#secaoInicial">Home</a></li>
+                            <li><a href="#secaoSobre">Quem somos</a></li>
+                            <li><a href="#secaoServicos">Serviços</a></li>
+                            <li><a href="#secaoDepoimentos">Depoimentos</a></li>
+                            <li><a href="#secaoContato">Contato</a></li>
                             <li>
                                 <div id="botao">
                                     <button type="button" class="botaoLogin">Login</button>
@@ -48,7 +48,7 @@
                         <h1 class="display-4">Lorem ipsum <span style="color: #FF2E63">dolor sit</span> amet</h1>
                         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
                         <button type="button" class="botaoLogin">Login</button>
-                        <p class="portfolio float-right lead">Portfólio <a href="#"><img src="imagens/arrow.svg" alt="arrow"></a>
+                        <p class="portfolio float-right lead">Portfólio <a href="#secaoPortfolio"><img src="imagens/arrow.svg" alt="arrow"></a>
                         </p>
                         <div class="redesSociais">
                             <div class="box">
@@ -129,7 +129,6 @@
             <div id="secaoPortfolio">
                 <section id="portfolio">
                     <h1 class="display-4"><span style="border-bottom: 5px solid #FF2E63;">Portfóli</span>o</h1>
-                    <div id="cardPortfolio1">
                         <div class="cardPortfolio">
                             <div class="cardImg">
                                 <img src="imagens/portfolio/Video.svg" alt="">
@@ -139,7 +138,6 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. At.</p>
                             </div>
                         </div>
-                    </div>
                 </section>
 
             </div>
@@ -160,14 +158,22 @@
                     <h1 class="display-4"><span style="border-bottom: 5px solid #FF2E63;">Mande um</span>a <span style="color: #FF2E63">mensagem</span></h1>
                     <div id="formulario">
                         <form>
-                            <label for="nome"><span class="lead" style="color: #FF2E63">Nome</span></label>
-                            <input type="text" id="nome" name="nome"><br>
-                            <label for="telefone"><span class="lead" style="color: #FF2E63">Telefone</span></label>
-                            <input type="tel" id="telefone" name="telefone"><br>
-                            <label for="email"><Span class="lead" style="color: #FF2E63">Email</Span></label>
-                            <input type="email" id="email" name="email"><br>
-                            <label for="mensagem"><span class="lead" style="color: #FF2E63">Mensagem</span></label><br>
-                            <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea><br>
+                            <div id="formNome">
+                                <label for="nome"><span class="lead" style="color: #FF2E63">Nome</span></label>
+                                <input type="text" id="nome" name="nome">
+                            </div>
+                            <div id="formTel">
+                                <label for="telefone"><span class="lead" style="color: #FF2E63">Telefone</span></label>
+                                <input type="tel" id="telefone" name="telefone">
+                            </div>
+                            <div id="formEmail">
+                                <label for="email"><Span class="lead" style="color: #FF2E63">Email</Span></label>
+                                <input type="email" id="email" name="email">
+                            </div>
+                            <div id="formMensagem">
+                                <label for="mensagem"><span class="lead" style="color: #FF2E63">Mensagem</span></label><br>
+                            <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                            </div>
                             <button type="submit" class="botaoLogin">Enviar</button>
                         </form>
                     </div>
