@@ -508,12 +508,41 @@ section#fraseEfeito{
     display: flex;
 }
 
+#secaoContato div#formulario #formNomesTel{
+    display: flex;
+}
+
+#secaoContato div#formulario #formNomesTel .formNomeTel{
+    display: inline;
+    flex-direction : column;
+    margin-right: 25px;
+}
+
+#secaoContato div#formulario input{
+    border-radius: 30px;
+    width: 275px;
+    height: 50px;
+}
+
+#secaoContato div#formulario #formEmail input{
+    width: 575px;
+    height: 50px;
+}
+
+#secaoContato div#formulario textarea{
+    border-radius: 30px;
+    width: 573.02px;
+    height: 253px;
+}
+
 #secaoContato div#mapa{
     float: right;
     width: 479px;
     height: 466px;
     margin-right: 161px;
 }
+
+
 
 /* Rodapé
 ***************************************/
