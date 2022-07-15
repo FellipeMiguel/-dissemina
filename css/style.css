@@ -7,7 +7,7 @@
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
-    background: url(../imagens/paginaInicial/AllShapes.svg) no-repeat;
+    background: url(../imagens/paginaInicial/AllShapes.svg) no-repeat top;
     background-size: 100% 95%;
 }
 
@@ -92,10 +92,9 @@ nav div#botao{
 **************************************/
 
 #secaoInicial{
+    display: flex;
     width: 100%;
     height: 1024px;
-    margin: auto;
-    /*background: url(../imagens/paginaInicial/AllShapes.svg);*/
 }
 
 .identidadeVisual img{
@@ -103,20 +102,20 @@ nav div#botao{
     height: 406px;
 }
 
-section#fraseEfeito{
-    float: left;
+#secaoInicial section#fraseEfeito{
+    width: 30%;
+    margin-left: 161px;
+    margin-top: 159px;
 }
 
-#secaoInicial section#fraseEfeito{
-    width: 510px;
-    height: 502px;
-    margin-top: 170px;
-    margin-left: 161px;
+#secaoInicial .identidadeVisual img{
+    margin-left: 420px;
+    margin-top: 149px;
 }
 
 #secaoInicial section .botaoLogin{
-    width: 129;
-    height: 46;
+    width: 129px;
+    height: 46px;
     margin-left: 0;
     margin-top: 10px;
 }
@@ -127,7 +126,6 @@ section#fraseEfeito{
 }
 
 #secaoInicial div.redesSociais{
-    clear: both;
     padding-top: 125px;
 }
 
@@ -140,7 +138,6 @@ section#fraseEfeito{
 
 #secaoSobre{
     display: flex;
-    justify-content: space-between;
     width: 100%;
     height: 838px;
     margin: auto;
@@ -150,12 +147,13 @@ section#fraseEfeito{
 #secaoSobre section#sobre{
     width: 40%;
     height: 600px;
-    margin-left: 161px;
+    margin-left: 111px;
+    padding: 50px;
 }
 
-#secaoSobre section#sobre .identidadeVisual{
-    width: 30%;
-    padding-top: 70px;
+#secaoSobre .identidadeVisual img{
+    margin-left: 390px;
+    margin-top: 140px;
 }
 
 #secaoSobre section .botaoLogin{
@@ -166,7 +164,6 @@ section#fraseEfeito{
 }
 
 #secaoSobre div.redesSociais{
-    clear: both;
     padding-top: 50px;
 }
 
@@ -226,6 +223,8 @@ section#fraseEfeito{
     border-radius : 30px;
     align-items : center;
     justify-content : center;
+
+    margin-top: -120px;
 }
 
 #secaoServicos section#servicos #card1 img{
@@ -259,6 +258,8 @@ section#fraseEfeito{
     border-radius : 30px;
     align-items : center;
     justify-content : center;
+
+    margin-top: 300px;
 }
 
 #secaoServicos section#servicos #card2 img{
