@@ -11,6 +11,11 @@
         height: auto;
     }
 
+    #secaoInicio section.identidadeVisual img{
+        width: 10px;
+        margin-left: 0;
+    }
+
     /*Sobre*/
     #secaoSobre{
         flex-direction: column;
