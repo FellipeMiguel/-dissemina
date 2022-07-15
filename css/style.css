@@ -520,6 +520,8 @@ nav div#botao{
 }
 
 
+
+
 .card-depoimento {
     max-width: 466px;
     max-height: 195px;
@@ -593,6 +595,12 @@ nav div#botao{
     margin-right: 20px;
 }
 
+.container-depoimentos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 /* Seção contato
 **************************************/
