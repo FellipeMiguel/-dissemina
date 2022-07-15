@@ -606,7 +606,6 @@ nav div#botao{
 **************************************/
 
 #secaoContato{
-    border: 1px solid red;
     display: flex;
     align-items: center;
     width: 100%;
@@ -617,7 +616,6 @@ nav div#botao{
 
 /*CONTATO*/
 #secaoContato section#contato{
-    border: 1px solid blue;
 
     width: 50%;
     height: 800px;
@@ -637,32 +635,27 @@ nav div#botao{
 
 /*  Formulario */
 #secaoContato div#formulario{
-    border: 5px solid yellow ;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
 #formulario form{
-    border: 1px solid purple;
     width: 100%;
 }
 
 #secaoContato #formulario #formNomesTel{
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
 }
 
 #secaoContato div#formulario #formNomesTel .formNome{
-    border: 1px solid green;
     width: 40%;
     display: flex;
     flex-direction: column;
 }
 
 #secaoContato div#formulario #formNomesTel .formTel{
-    border: 1px solid blue;
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -680,7 +673,6 @@ nav div#botao{
 }
 
 #form-email-mensagem-container{
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
 }
@@ -714,7 +706,6 @@ nav div#botao{
 
 /*DIV MAPA*/
 #secaoContato div#mapa{
-    border: 1px solid green;
     width: 50%;
     height: 100%;
 
