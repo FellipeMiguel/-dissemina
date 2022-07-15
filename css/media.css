@@ -1,5 +1,10 @@
 @media(max-width:800px){
 
+    body{
+        width: 100%;
+    }
+
+
     /*Inicio*/
     #secaoInicio{
         flex-direction: column;
@@ -13,6 +18,7 @@
     }
     #secaoSobre section#sobre .identidadeVisual img{
         width: 10px;
+        margin-left: 0;
     }
     .identidadeVisual img{
         width: 100%;
