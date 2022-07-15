@@ -606,17 +606,20 @@ nav div#botao{
 **************************************/
 
 #secaoContato{
+    border: 1px solid red;
     display: flex;
-    align-items : center;
-    justify-content: space-between;
+    align-items: center;
     width: 100%;
     height: 800px;
     margin: auto;
     background: url(../imagens/contato/Shapes\ \(1\).svg) no-repeat top right;
 }
 
+/*CONTATO*/
 #secaoContato section#contato{
-    width: 100%;
+    border: 1px solid blue;
+
+    width: 50%;
     height: 800px;
 }
 
@@ -626,46 +629,98 @@ nav div#botao{
     padding-left: 161px;
 }
 
+#secaoContato #formulario-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  Formulario */
 #secaoContato div#formulario{
-    width: 583px;
+    border: 5px solid yellow ;
+    width: 100%;
     display: flex;
+    justify-content: center;
 }
 
-#secaoContato div#formulario #formNomesTel{
-    display: flex;
+#formulario form{
+    border: 1px solid purple;
+    width: 100%;
 }
 
-#secaoContato div#formulario #formNomesTel .formNomeTel{
-    display: inline;
-    flex-direction : column;
-    margin-right: 25px;
+#secaoContato #formulario #formNomesTel{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+#secaoContato div#formulario #formNomesTel .formNome{
+    border: 1px solid green;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+#secaoContato div#formulario #formNomesTel .formTel{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: -80px;
+}
+
+#secaoContato div#formulario #formEmail{
+    display: flex;
+    flex-direction: column;
+}
+
+#secaoContato div#formulario #formMensagem{
+    display: flex;
+    flex-direction: column;
+}
+
+#form-email-mensagem-container{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
 }
 
 #secaoContato div#formulario input{
+    border-style: none;
+    border: 2px solid #252A34;
     border-radius: 30px;
-    width: 275px;
+    /* width: 275px; */
     height: 50px;
 }
 
+
 #secaoContato div#formulario #formEmail input{
-    width: 575px;
+    width: 100%;
     height: 50px;
 }
 
 #secaoContato div#formulario textarea{
     border-radius: 30px;
-    width: 573.02px;
+    width: 100%;
     height: 253px;
+
+    border-style: none;
+    border: 2px solid #252A34;
 }
 
 #secaoContato #formulario form .botaoLogin{
     margin: 20px 0 0 0;
 }
 
+/*DIV MAPA*/
 #secaoContato div#mapa{
+    border: 1px solid green;
+    width: 50%;
+    height: 100%;
+
     display: flex;
-    width: 479px;
-    height: 466px;
+    align-items: center;
+    justify-content: center;
 }
 
 #secaoContato h1 {

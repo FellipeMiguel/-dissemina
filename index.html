@@ -254,40 +254,46 @@
             <div id="secaoContato">
                 <section id="contato">
                     <h1 class="display-4"><span style="border-bottom: 5px solid #FF2E63;">Mande um</span>a <span style="color: #FF2E63">mensagem</span></h1>
-                    <div id="formulario">
-                        <form>
-                            <div id="formNomesTel">
-                                <div class="formNomeTel">
-                                    <label for="nome"><span class="lead" style="color: #FF2E63">Nome</span></label>
-                                    <input type="text" id="nome" name="nome" required>
+                    <div id="formulario-container">
+                        <div id="formulario">
+                            <form>
+                                <div id="formNomesTel">
+                                    <div class="formNome">
+                                        <label for="nome"><span class="lead" style="color: #FF2E63">Nome</span></label>
+                                        <input type="text" id="nome" name="nome" required>
+                                    </div>
+                                    <div class="formTel">
+                                        <label for="telefone"><span class="lead" style="color: #FF2E63">Telefone</span></label>
+                                        <input type="tel" id="telefone" name="telefone" required>
+                                    </div>
                                 </div>
-                                <div class="formNomeTel">
-                                    <label for="telefone"><span class="lead" style="color: #FF2E63">Telefone</span></label>
-                                    <input type="tel" id="telefone" name="telefone" required>
+                                <div id="form-email-mensagem-container">
+                                    <div id="formEmail">
+                                        <label for="email"><Span class="lead" style="color: #FF2E63">Email</Span></label><br>
+                                        <input type="email" id="email" name="email" required>
+                                    </div>
+                                    <div id="formMensagem">
+                                        <label for="mensagem"><span class="lead" style="color: #FF2E63">Mensagem</span></label><br>
+                                        <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
+                                    </div>
                                 </div>
-                            </div>
-                            <div id="formEmail">
-                                <label for="email"><Span class="lead" style="color: #FF2E63">Email</Span></label><br>
-                                <input type="email" id="email" name="email" required>
-                            </div>
-                            <div id="formMensagem">
-                                <label for="mensagem"><span class="lead" style="color: #FF2E63">Mensagem</span></label><br>
-                                <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
-                            </div>
-                            <button type="submit" class="botaoLogin">Enviar</button>
-                        </form>
+
+                                <button type="submit" class="botaoLogin">Enviar</button>
+                            </form>
+                        </div>
                     </div>
-                    <div id="mapa">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15876.34664363448!2d-35.1993953!3d-5.8434097!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x20c4bb30f68e7bc3!2sECT%2FUFRN%20-%20Escola%20de%20Ci%C3%AAncias%E2%80%8B%20e%20Tecnologia!5e0!3m2!1spt-PT!2sbr!4v1657663767473!5m2!1spt-PT!2sbr" 
-                            width="600" 
-                            height="450" 
-                            style="border-radius: 60px;" 
-                            allowfullscreen="" 
-                            loading="lazy" 
-                            referrerpolicy="no-referrer-when-downgrade">
-                        </iframe>
-                    </div>
+
                 </section>
+                <div id="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15876.34664363448!2d-35.1993953!3d-5.8434097!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x20c4bb30f68e7bc3!2sECT%2FUFRN%20-%20Escola%20de%20Ci%C3%AAncias%E2%80%8B%20e%20Tecnologia!5e0!3m2!1spt-PT!2sbr!4v1657663767473!5m2!1spt-PT!2sbr" 
+                        width="479px" 
+                        height="466px"
+                        style="border-radius: 60px; border: none;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
             </div>
             <!--Fim contato-->
 
