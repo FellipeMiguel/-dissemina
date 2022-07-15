@@ -1,4 +1,30 @@
 @media(max-width:800px){
+
+    /*Inicio*/
+    #secaoInicio{
+        flex-direction: column;
+        height: auto;
+    }
+
+    /*Sobre*/
+    #secaoSobre{
+        flex-direction: column;
+        height: auto;
+    }
+    #secaoSobre section#sobre .identidadeVisual img{
+        width: 10px;
+    }
+    .identidadeVisual img{
+        width: 100%;
+        margin-top: 50px;
+    }
+    #secaoSobre section#sobre{
+        margin-left: 0;
+        width: 100%;
+        padding: 30px;
+        margin-bottom: 100px;
+    }
+
     /*Serviços*/
     .cardServicos{
         flex-direction: column;
@@ -26,24 +52,5 @@
     #secaoServicos section#servicos h1{
         padding-left: 20px;
         font-size: 50px;
-    }
-
-    /*Sobre*/
-    #secaoSobre{
-        flex-direction: column;
-        height: auto;
-    }
-    #secaoSobre section#sobre .identidadeVisual img{
-        width: 10px;
-    }
-    .identidadeVisual img{
-        width: 100%;
-        margin-top: 50px;
-    }
-    #secaoSobre section#sobre{
-        margin-left: 0;
-        width: 100%;
-        padding: 30px;
-        margin-bottom: 100px;
     }
 }
