@@ -1,0 +1,46 @@
+@media(max-width:800px){
+    .cardServicos{
+        flex-direction: column;
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+    }
+    #servicos{
+        height: auto;
+    }
+    #secaoServicos section#servicos #card1{
+        width: 80%;
+    }
+    #secaoServicos section#servicos #card2{
+        width: 80%;
+        margin-top: 70px;
+    }
+    #secaoServicos section#servicos #card3{
+        width: 80%;
+        margin-top: 70px;
+    }
+    #secaoServicos{
+        height: auto;
+    }
+    #secaoServicos section#servicos h1{
+        padding-left: 20px;
+        font-size: 50px;
+    }
+    #secaoSobre{
+        flex-direction: column;
+        height: auto;
+    }
+    #secaoSobre section#sobre .identidadeVisual img{
+        width: 10px;
+    }
+    .identidadeVisual img{
+        width: 100%;
+        margin-top: 50px;
+    }
+    #secaoSobre section#sobre{
+        margin-left: 0;
+        width: 100%;
+        padding: 30px;
+        margin-bottom: 100px;
+    }
+}
