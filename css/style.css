@@ -1,11 +1,13 @@
 /* Formatação geral
 *************************************/
 
+* {
+    font-family: 'Montserrat', sans-serif !important;
+}
 
 #container{
     width: 100%;
     margin: 0 auto;
-    font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
     background: url(../imagens/paginaInicial/AllShapes.svg) no-repeat top;
     background-size: 100% 95%;
@@ -133,6 +135,21 @@ nav div#botao{
     margin-right: 60px;
 }
 
+#secaoInicial h1 {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 63px;      
+}
+
+#secaoInicial p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;    
+}
+
+.secaoInicial-text {
+    margin-top: -70px;
+}
 /* Seção sobre
 **************************************/
 
@@ -169,6 +186,18 @@ nav div#botao{
 
 #secaoSobre div.redesSociais .box img{
     margin-right: 60px;
+}
+
+#sobre h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+#sobre p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
 }
 
 /* Seção serviços
@@ -210,6 +239,25 @@ nav div#botao{
     align-items: center;
 }
 
+#servicos h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+#servicos h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;    
+}
+
+#servicos p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* text-align: justify;     */
+}
 /* Card 1
 -----------------------------------*/
 
@@ -315,6 +363,8 @@ nav div#botao{
 /* Seção portfólio
 **************************************/
 
+
+
 #secaoPortfolio{
     clear: both;
     width: 100%;
@@ -411,7 +461,7 @@ nav div#botao{
     margin-top: 70px;
     margin-left: 30px;
 }
-/* primeiro card da segunda fileira */
+
 
 
 /* Seção depoimentos
@@ -422,7 +472,14 @@ nav div#botao{
     width: 100%;
     height: 1024px;
     margin: auto;
+    margin-top: 150px;
     background: url(../imagens/depoimentos/Shapes.svg) no-repeat bottom left;
+}
+
+#secaoDepoimentos h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
 }
 
 #secaoDepoimentos section#depoimentos{
@@ -434,6 +491,104 @@ nav div#botao{
     padding-top: 50px;
     padding-left: 161px;
 }
+
+/* depoimentos pedro */
+
+.container-depoimentos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card-depoimento-depoimento-emmy {
+    border-left: #FFF solid 3px;
+    padding-left: 15px;
+}
+
+.card-depoimento-depoimento-ros {
+    border-left: #FFF solid 3px;
+    padding-left: 15px;
+}
+.card-depoimento-depoimento-waino {
+    border-left: #FFF solid 3px;
+    padding-left: 15px;
+}
+
+
+.card-depoimento {
+    max-width: 466px;
+    max-height: 195px;
+    background-color: #252A34;
+    color: white;
+    border-radius: 30px;
+
+    margin-top: 50px;
+}
+.card-depoimento-text {
+    display: flex;
+
+    margin-right: 28px;
+    margin-left: 28px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.card-depoimento-text h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;   
+}
+.card-depoimento-text h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: -10px;    
+}
+.card-depoimento-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;    
+}
+.card-depoimento-depoimento-emmy {
+    display: flex;
+    margin-left: 30px;
+
+}
+.card-depoimento-depoimento-emmy img {
+    margin-right: -100px;
+    margin-top: -150px;
+    
+}
+
+.card-depoimento-depoimento-waino {
+    display: flex;
+    margin-left: 30px;
+
+}
+
+.card-depoimento-depoimento-ros {
+    display: flex;
+    margin-left: 30px;
+
+}
+
+.left-side-ros img {
+    margin-top: -110px;
+    margin-left: -60px;
+}
+
+.left-side-waino img {
+    margin-left: -90px;
+    margin-bottom: -15px;
+}
+
+.left-side-waino {
+    margin-right: 20px;
+}
+
 
 /* Seção contato
 **************************************/
@@ -497,6 +652,18 @@ nav div#botao{
     width: 479px;
     height: 466px;
     margin-right: 161px;
+}
+
+#secaoContato h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+#secaoContato label span {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;    
 }
 
 
