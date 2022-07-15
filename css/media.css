@@ -79,6 +79,13 @@
         height: auto;
     }
 
+    #secaoContato section#contato h1{
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+        font-size: 32px;
+    }
+
     #secaoContato #formulario #formNomesTel{
         flex-direction: column;
     }
