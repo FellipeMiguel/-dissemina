@@ -2,8 +2,12 @@
 
     body{
         width: 100%;
+        height: 100%;
     }
 
+    #container{
+        width: 100%;
+    }
 
     /*Inicio*/
     #secaoInicio{
@@ -11,9 +15,14 @@
         height: auto;
     }
 
-    #secaoInicio section.identidadeVisual img{
-        width: 10px;
+    #secaoInicial section#fraseEfeito{
         margin-left: 0;
+        width: 100%;
+    }
+
+    #secaoInicial .identidadeVisual img{
+        width: 100%;
+        margin: 0;
     }
 
     /*Sobre*/
@@ -21,13 +30,9 @@
         flex-direction: column;
         height: auto;
     }
-    #secaoSobre section#sobre .identidadeVisual img{
-        width: 10px;
-        margin-left: 0;
-    }
-    .identidadeVisual img{
+    #secaoSobre .identidadeVisual img{
         width: 100%;
-        margin-top: 50px;
+        margin: 0;
     }
     #secaoSobre section#sobre{
         margin-left: 0;
@@ -63,9 +68,6 @@
     #secaoServicos section#servicos h1{
         padding-left: 20px;
         font-size: 50px;
-    }
-
-    #secaoPortfolio{
-        margin-top: 400px;
+        padding-bottom: 70px;
     }
 }
