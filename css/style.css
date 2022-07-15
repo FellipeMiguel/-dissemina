@@ -594,7 +594,9 @@ nav div#botao{
 **************************************/
 
 #secaoContato{
-    clear: both;
+    display: flex;
+    align-items : center;
+    justify-content: space-between;
     width: 100%;
     height: 800px;
     margin: auto;
@@ -613,9 +615,7 @@ nav div#botao{
 }
 
 #secaoContato div#formulario{
-    float: left;
     width: 583px;
-    height: 493px;
     margin-left: 161px;
     display: flex;
 }
@@ -648,10 +648,9 @@ nav div#botao{
 }
 
 #secaoContato div#mapa{
-    float: right;
+    display : flex;
     width: 479px;
     height: 466px;
-    margin-right: 161px;
 }
 
 #secaoContato h1 {
@@ -690,8 +689,4 @@ footer div.redesSociais{
 
 footer div.redesSociais .box img{
     margin: 0 30px 0 30px;
-}
-
-@media (max-width:800px){
-    
 }
