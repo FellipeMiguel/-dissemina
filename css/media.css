@@ -34,14 +34,15 @@
     #secaoSobre .identidadeVisual img{
         width: 100%;
         margin-left: 0;
-        margin-top: 0;
-        background: url(../imagens/sobre/shapes.svg) no-repeat;
+        margin-top: -100px;
+        margin-bottom: 100px;
+        background: url(../imagens/sobre/shapes.svg) no-repeat top right;
+        background-size: auto;
     }
     #secaoSobre section#sobre{
         margin-left: 0;
         width: 100%;
         padding: 0;
-        margin-bottom: 100px;
     }
 
     /*Serviços*/
@@ -99,6 +100,17 @@
         margin-left: 0;
     }
 
+    /* Depoimentos */
+
+    #secaoDepoimentos h1{
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+
+        margin-top: 50px;
+    
+    }
+
     /* Contato */
     #secaoContato{
         flex-direction: column;
@@ -147,6 +159,14 @@
         flex-direction: column !important;
         /* justify-content: center !important;     */
         align-items: center !important;
+    }
+
+    #secaoContato h1 {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+
+        margin-bottom: 50px !important;
     }
 
 }
