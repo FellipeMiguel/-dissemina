@@ -381,13 +381,11 @@ nav div#botao{
 #secaoPortfolio section#portfolio{
     width: 100%;
     height: 950px;
-    border: 1px solid blue;
     margin-top: 100px;
 }
 /* Portfolio Pedro */
 
 #secaoPortfolio .portfolio-h1{
-    border: 1px solid green;
     font-weight: 700;
     font-size: 36px;
     line-height: 44px;
@@ -452,7 +450,6 @@ nav div#botao{
 }
 
 .cardsPortfolio2 {
-    border: 1px solid red;
     margin-top: 100px;
     display: flex;
     flex-direction: row !important;
