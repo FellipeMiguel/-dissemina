@@ -29,15 +29,18 @@
     #secaoSobre{
         flex-direction: column;
         height: auto;
+        background: none;
     }
     #secaoSobre .identidadeVisual img{
         width: 100%;
-        margin: 0;
+        margin-left: 0;
+        margin-top: 0;
+        background: url(../imagens/sobre/shapes.svg) no-repeat;
     }
     #secaoSobre section#sobre{
         margin-left: 0;
         width: 100%;
-        padding: 30px;
+        padding: 0;
         margin-bottom: 100px;
     }
 
@@ -71,6 +74,28 @@
     }
     #secaoPortfolio{
         margin-top: 400px;
+    }
+
+    /* Portfólio */
+
+    #secaoPortfolio{
+        flex-direction: column;
+        height: auto;
+    }
+
+    #secaoPortfolio .portfolio-h1{
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+    }
+
+    .cardsPortfolio2{
+        margin-left: 0;
+    }
+
+    /* segundo card da segunda fileira */
+    .segundo2 {
+        margin-left: 0;
     }
 
     /* Contato */
