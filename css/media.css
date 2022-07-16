@@ -169,5 +169,60 @@
         margin-bottom: 50px !important;
     }
 
+
+    /* font sizes mobile */
+    #secaoInicial h1 {
+        font-size: 32px;
+    }
+    #secaoInicial p {
+        font-size: 14px;
+    }
+    #secaoSobre h1 {
+        font-size: 28px;
+    }
+    #secaoSobre p {
+        font-size: 14px;
+    }
+    #secaoServicos h1 {
+        font-size: 28px !important;
+        margin-bottom: 40px !important;
+    }
+    #secaoServicos p {
+        font-size: 14px;
+    }
+    #secaoServicos h3 {
+        font-size: 16px;
+    }
+    #secaoPortfolio h1 {
+        font-size: 28px !important;
+    }
+    #secaoPortfolio .card-portfolio-text h1 {
+        font-size: 18px !important;
+    }
+    .card-portfolio-text p {
+        font-size: 14px;
+    }
+    #secaoDepoimentos h1 {
+        font-size: 28px !important;
+    }
+    #secaoDepoimentos h3 {
+        font-size: 18px;
+    }
+    #secaoDepoimentos h4 {
+        font-size: 16px;
+    }
+    #secaoDepoimentos p {
+        font-size: 14px;
+    }
+    #secaoContato h1 {
+        font-size: 28px !important;
+    }
+  
+
+    /* footer */
+    #footerp {
+        font-size: 14px !important;
+    }
+
 }
 
