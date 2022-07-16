@@ -37,7 +37,6 @@
         margin-top: -100px;
         margin-bottom: 100px;
         background: url(../imagens/sobre/shapes.svg) no-repeat top right;
-        background-size: auto;
     }
     #secaoSobre section#sobre{
         margin-left: 0;
@@ -83,7 +82,8 @@
     #secaoPortfolio{
         flex-direction: column;
         height: auto;
-        background: url(../imagens/portfolio/Shapes.svg) no-repeat;
+        background: url(../imagens/portfolio/Shapes.svg) no-repeat center;
+        background-size: 130%;
     }
 
     #secaoPortfolio .portfolio-h1{
