@@ -640,6 +640,14 @@ nav div#botao{
     border: 1px solid red;
 }
 
+#secaoContato .contatosTxt{
+    margin-left: 10px;
+}
+
+#secaoContato .contatosTxt h4{
+    margin: 0;
+}
+
 
 /*  Formulario */
 #secaoContato #formulario-container{
