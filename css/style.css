@@ -613,7 +613,6 @@ nav div#botao{
 
 #secaoContato #contatosCabecalho{
     width: 100%;
-    border: 1px solid red;
 }
 
 #secaoContato h1{
@@ -637,7 +636,6 @@ nav div#botao{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
 }
 
 #secaoContato .contatosTxt{
@@ -654,13 +652,16 @@ nav div#botao{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    width: 50%;
+    margin: 0 50px;;
 }
 
 #secaoContato div#formulario{
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 0 161px;
+    padding: 10px 180px;
 }
 
 #formulario form{
