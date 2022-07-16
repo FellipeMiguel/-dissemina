@@ -79,6 +79,10 @@
         height: auto;
     }
 
+    #secaoContato div#formulario{
+        padding: 0;
+    }
+
     #secaoContato section#contato h1{
         padding-top: 0;
         padding-bottom: 0;
@@ -97,6 +101,10 @@
     #secaoContato div#formulario #formNomesTel .formTel{
         margin-left: 0;
         width: 100%;
+    }
+
+    #secaoContato div#mapa{
+        padding: 50px 0;
     }
 
 }
