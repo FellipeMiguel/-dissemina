@@ -52,6 +52,7 @@
     }
     #servicos{
         height: auto;
+        margin-top: 100px;
     }
     #secaoServicos section#servicos #card1{
         width: 80%;
@@ -102,6 +103,7 @@
     #secaoContato{
         flex-direction: column;
         height: auto;
+
     }
 
     #secaoContato div#formulario{
@@ -138,6 +140,13 @@
 
     #secaoContato div#mapa{
         padding: 50px 0;
+    }
+
+    #contatosImagens {
+        display: flex !important;
+        flex-direction: column !important;
+        /* justify-content: center !important;     */
+        align-items: center !important;
     }
 
 }
