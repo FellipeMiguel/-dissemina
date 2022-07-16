@@ -83,6 +83,7 @@
     #secaoPortfolio{
         flex-direction: column;
         height: auto;
+        background: url(../imagens/portfolio/Shapes.svg) no-repeat;
     }
 
     #secaoPortfolio .portfolio-h1{
