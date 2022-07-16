@@ -9,7 +9,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         <!--Normalize CSS-->
-        <link rel="stylesheet" href="css/normalize.css" />
+        <!-- <link rel="stylesheet" href="css/normalize.css" /> -->
         <!--Estilo customizado-->
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/media.css">
@@ -22,78 +22,107 @@
     <body>
         <!--Inico container-->
         <div id="container">
-            <div id="background">
-                <header>
-                    <div id="logo">
-                        <h1><a href="">Dissemina</a></h1>
-                    </div>
-                    <!--Inico menu-->
-                    <nav>
-                        <ul>
-                            <li><a href="#secaoInicial">Home</a></li>
-                            <li><a href="#secaoSobre">Quem somos</a></li>
-                            <li><a href="#secaoServicos">Serviços</a></li>
-                            <li><a href="#secaoDepoimentos">Depoimentos</a></li>
-                            <li><a href="#secaoContato">Contato</a></li>
-                            <li>
-                                <div id="botao">
-                                    <button type="button" class="botaoLogin">Login</button>
+             <!--INICIO DA NAVBAR-->
+    <div id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand" href="#">
+                    <img src="imagens/logo/logo.svg" />
+                </a>
+                    <button
+                        class="menumobile" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#navbarNav" 
+                        aria-controls="navbarNav" 
+                        aria-expanded="false" 
+                        aria-label="Toggle navigation">
+                        <span class="menumobile"><img src="img/iconemenu.svg"/></span>
+                    </button> 
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#paginainicial">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicos">Serviços</a>
+                        </li>
+                        <span class="menumobile">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portifolio">Portifólio</a>
                             </li>
-                        </ul>
-                </div>
-                </nav>
-                <!--Fim menu-->
-                </header>
-
-                <!--Inicio seção inicial-->
-                <div id="secaoInicial">
-                    <section id="fraseEfeito">
-                        <div class="secaoInicial-text">
-                        <h1 class="display-4">Lorem ipsum <span style="color: #FF2E63">dolor sit</span> amet</h1>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                        </span>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#depoimento">Depoimentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                        <div class="botao">
+                            <button type="button" class="button btn btn-primary button-primary mt-2 ml-3">Login</button> 
                         </div>
-                        <button type="button" class="botaoLogin">Login</button>
-                        <p class="portfolio float-right lead">Portfólio <a href="#secaoPortfolio"><img src="imagens/arrow.svg" alt="arrow"></a>
-                        </p>
-                        <div class="redesSociais">
-                            <div class="box">
-                                <a href="#"><img src="imagens/bi_facebook.svg" alt="facebook"></a>
-                                <a href="#"><img src="imagens/bi_instagram.svg" alt="instagram"></a>
-                                <a href="#"><img src="imagens/bi_youtube.svg" alt="youtube"></a>
-                            </div>
-                        </div>     
-                    </section>
-                    <section class="identidadeVisual">
-                        <img src="imagens/paginaInicial/mainIllustration.svg" alt="identidadeVisual1">
-                    </section>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!--FIM DA NAVBAR-->
+
+    <!--HOME-->
+    <div id="paginainicial">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-6 align-self-center mb-md-0 mb-4">
+                    <h1>Lorem ipsum <span style="color: #FF2E63">dolor sit</span> amet</h1>
+                    <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    <div class="sumir">
+                        <span>
+                            <a href="#" class="button btn btn-primary button-primary ranguito login">Login</a>
+                            <a href="#portifolio" class="button btn btn-outline-primary button-secondary">Portifólio<img src="img/arrowblack.svg"/></a>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6 align-self-center text-right">
+                    <img src="img/ilustração1.svg" class="img-fluid" />
                 </div>
             </div>
-            <!--Fim seção inicial-->
+        </div>
+        <div class="container redesocial pt-5 mt-5">
+            <a href="#"><img src="img/facebook.svg" class="mr-5"></a>
+            <a href="#"><img src="img/instagram.svg" class="mr-5"></a>
+            <a href="#"><img src="img/youtube.svg" class="mr-5"></a>
+        </div>
+    </div>
 
-            <!--Inicio sobre-->
-            <div id="secaoSobre">
-                <section id="sobre">
-                    <h1 class="display-4"><span style="border-bottom: 5px solid #FF2E63;">Sobr</span>e</h1>
-                    <p class="lead">
+
+    <!--SOBRE-->
+    <div id="sobre"></div>
+        <div id="sobre-section"class="container pt-5 mt-5">
+            <div class="row">
+                <div class="col-lg-7 col-md-6 align-self-center mb-md-1 mb-4">
+                    <h1 id="sobre-h1"class="mb-5"><span style="border-bottom: 5px solid #ff2e63;">Sobr</span>e</h1>
+                    <p id="sobre-p" class="lead">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam, eu amet quisque massa augue.
                         Integer sit platea condimentum posuere quam venenatis. Eu id fusce velit mattis egestas mauris id in.
                         Egestas phasellus est ut ut vitae. Adipiscing pulvinar ac eu proin quam orci. Fringilla id non, lacus
                         metus in sodales. Massa velit sed id aliquet non et suspendisse habitant. Nunc mauris accumsan id duis
-                        mattis elit nunc, consectetur in. Dictum tempus enim, adipiscing egestas metus consequat pharetra.
+                     
                     </p>
-                    <div class="redesSociais">
-                        <div class="box">
-                            <a href="#"><img src="imagens/bi_facebook.svg" alt="facebook"></a>
-                            <a href="#"><img src="imagens/bi_instagram.svg" alt="instagram"></a>
-                            <a href="#"><img src="imagens/bi_youtube.svg" alt="youtube"></a>
-                        </div>
+                    <div class="container sumir pt-5 mt-5">
+                        <a href="#"><img src="img/facebook.svg" class="mr-5"></a>
+                        <a href="#"><img src="img/instagram.svg" class="mr-5"></a>
+                        <a href="#"><img src="img/youtube.svg" class="mr-5"></a>
                     </div>
-                </section>
-                <section class="identidadeVisual">
-                    <img src="imagens/sobre/ilustration.svg" alt="identidadeVisual2">
-                </section>
+                </div>
+                <div class="col-lg-5 col-md-6 align-self-center text-right">
+                    <img src="img/ilustration2.svg" class="mt-5 ml-3">
+                </div>
             </div>
-            <!--Fim sobre-->
+        </div>
+    </div>
 
             <!--Inicio serviços-->
             <div id="secaoServicos">
