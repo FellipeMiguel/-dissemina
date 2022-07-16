@@ -83,11 +83,19 @@
         padding: 0;
     }
 
-    #secaoContato section#contato h1{
+    #secaoContato section#contato{
+        flex-direction: column;
+    }
+
+    #secaoContato section #contatosCabecalho h1{
         padding-top: 0;
         padding-bottom: 0;
         padding-left: 0;
         font-size: 32px;
+    }
+
+    #secaoContato #contatosImagens{
+        flex-direction: column;
     }
 
     #secaoContato #formulario #formNomesTel{
