@@ -608,6 +608,10 @@ nav div#botao{
     justify-content: space-around;
 }
 
+#secaoDepoimentos {
+    max-width: 1366px !important;
+}
+
 /* Seção contato
 **************************************/
 
