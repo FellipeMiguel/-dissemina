@@ -115,6 +115,7 @@
     #secaoContato{
         flex-direction: column;
         height: auto;
+        background: url(../imagens/contato/Shapes\ \(1\).svg) no-repeat center;
 
     }
 
